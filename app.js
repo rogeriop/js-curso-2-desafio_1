@@ -17,3 +17,10 @@ function botaoPrompt() {
     alert(`Estive em ${cidade} e lembrei de você`);
 }
 
+function botaoSoma() {
+    let numero1 = prompt('Digite o primeiro valor');
+    let numero2 = prompt('Digite o segundo valor');
+    let resultado = Number(numero1) + Number(numero2);
+    alert(`O resultado da soma é ${resultado}`);
+}
+
